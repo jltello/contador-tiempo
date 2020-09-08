@@ -1,0 +1,43 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/blanc.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    min-height: 80vh;
+    font-family: monospace;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-El {
+    text-align: center;
+}
+
+.countdown-El span {
+    font-size: 1rem;
+}
